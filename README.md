@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Image Theft Detection Mini Project</title>
 </head>
 <body>
 
@@ -62,13 +61,9 @@
   <li>Create a new Pull Request.</li>
 </ol>
 
-<h2>License</h2>
-
-<p>This project is licensed under the [Your License] - see the [LICENSE](LICENSE) file for details.</p>
-
 <h2>Contact</h2>
 
-<p>For any questions or feedback, please email [email@example.com].</p>
+<p>For any questions or feedback, please email [malikhamna107@gmail.com].</p>
 
 </body>
 </html>
