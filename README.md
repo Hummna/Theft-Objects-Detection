@@ -1,31 +1,74 @@
-#Image Theft Detection Mini Project
-This mini-project aims to detect stolen objects in images by comparing an original image with images suspected of containing stolen content. It involves image processing techniques to highlight differences between the original and theft images and extract the stolen object(s) from the original image.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Theft Detection Mini Project</title>
+</head>
+<body>
 
-Overview
-The code provided offers the following functionalities:
+<h1>Image Theft Detection Mini Project</h1>
 
-Image Comparison: Loads the original image (Original.jpg) and two theft images (Theft1.jpg, Theft2.jpg).
-Grayscale Conversion: Converts the images to grayscale using rgb2gray() function.
-Difference Calculation: Computes the absolute difference between the grayscale original and theft images.
-Thresholding: Determines an optimal threshold value using graythresh() to convert the difference image to binary.
-Object Extraction: Uses the binary mask to extract the suspected stolen object(s) from the original image.
-Visualization: Displays the original, theft, and output images using MATLAB's subplot() and imshow() functions.
-Output Saving: Saves the extracted object(s) as output1.jpg and output2.jpg.
-Usage
-Installation
+<p>This mini-project aims to detect stolen objects in images by comparing an original image with images suspected of containing stolen content. It involves image processing techniques to highlight differences between the original and theft images and extract the stolen object(s) from the original image.</p>
 
-Ensure you have MATLAB installed.
+<h2>Overview</h2>
 
-Clone the repository:
+<p>The code provided offers the following functionalities:</p>
+<ul>
+  <li><strong>Image Comparison:</strong> Loads the original image (`Original.jpg`) and two theft images (`Theft1.jpg`, `Theft2.jpg`).</li>
+  <li><strong>Grayscale Conversion:</strong> Converts the images to grayscale using `rgb2gray()` function.</li>
+  <li><strong>Difference Calculation:</strong> Computes the absolute difference between the grayscale original and theft images.</li>
+  <li><strong>Thresholding:</strong> Determines an optimal threshold value using `graythresh()` to convert the difference image to binary.</li>
+  <li><strong>Object Extraction:</strong> Uses the binary mask to extract the suspected stolen object(s) from the original image.</li>
+  <li><strong>Visualization:</strong> Displays the original, theft, and output images using MATLAB's `subplot()` and `imshow()` functions.</li>
+  <li><strong>Output Saving:</strong> Saves the extracted object(s) as `output1.jpg` and `output2.jpg`.</li>
+</ul>
 
-bash
-Copy code
-git clone https://github.com/yourusername/yourproject.git
-Usage Instructions
+<h2>Usage</h2>
 
-Place the original image (Original.jpg) and theft images (Theft1.jpg, Theft2.jpg) in the project directory.
-Run the MATLAB script.
-View the displayed original, theft, and output images in separate windows.
-Code Structure
-The script loads the original and theft images, calculates their difference, and extracts potential stolen objects based on the detected differences.
-It displays the original, theft, and output images using MATLAB's subplot functionality.
+<ol>
+  <li><strong>Installation:</strong>
+    <ul>
+      <li>Ensure you have MATLAB installed.</li>
+      <li>Clone the repository:
+        <pre><code>git clone https://github.com/yourusername/yourproject.git</code></pre>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Usage Instructions:</strong>
+    <ul>
+      <li>Place the original image (`Original.jpg`) and theft images (`Theft1.jpg`, `Theft2.jpg`) in the project directory.</li>
+      <li>Run the MATLAB script.</li>
+      <li>View the displayed original, theft, and output images in separate windows.</li>
+    </ul>
+  </li>
+</ol>
+
+<h2>Code Structure</h2>
+
+<p>The script loads the original and theft images, calculates their difference, and extracts potential stolen objects based on the detected differences. It displays the original, theft, and output images using MATLAB's subplot functionality.</p>
+
+<h2>Requirements</h2>
+
+<p>MATLAB environment with Image Processing Toolbox.</p>
+
+<h2>Contributing</h2>
+
+<p>Contributions, bug reports, or suggestions for improvements are welcome! To contribute:</p>
+<ol>
+  <li>Fork the repository.</li>
+  <li>Create a new branch (`git checkout -b feature`).</li>
+  <li>Make your changes, then commit (`git commit -m 'Add feature'`).</li>
+  <li>Push to the branch (`git push origin feature`).</li>
+  <li>Create a new Pull Request.</li>
+</ol>
+
+<h2>License</h2>
+
+<p>This project is licensed under the [Your License] - see the [LICENSE](LICENSE) file for details.</p>
+
+<h2>Contact</h2>
+
+<p>For any questions or feedback, please email [email@example.com].</p>
+
+</body>
+</html>
