@@ -63,7 +63,7 @@
 
 <h2>Contact</h2>
 
-<p>For any questions or feedback, please email [malikhamna107@gmail.com].</p>
+<p>For any questions or feedback, please email malikhamna107@gmail.com.</p>
 
 </body>
 </html>
